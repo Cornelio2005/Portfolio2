@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: synthwave --default, light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
