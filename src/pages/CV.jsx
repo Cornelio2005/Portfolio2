@@ -30,11 +30,68 @@ function CV() {
                     </div>
 
         </div>
-
+      {/* COMPÉTENCES TECHNIQUES & SOFT SKILLS */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            
-        </div>
+        {/* COMPÉTENCES TECHNIQUES */}
+            <div className="rounded-2xl p-6 border border-white/10"
+                    style={{ background: 'rgba(255,255,255,0.05)' }}>
+                    <h2 className="text-2xl font-bold text-white mb-4">
+                        Compétences techniques
+                    </h2>
+                    
+                        {/*div pour les compétences */}
+                    <div className="space-y-3">
+                        <div>
+                            <p className="text-xs font-bold text-base-content/40 tracking-widest uppercase mb-1">
+                            FRONT-END
+                            </p>
+                            <p className="text-sm text-base-content/80">
+                            React, Vue.js, Tailwind CSS, DaisyUI, HTML5, CSS3
+                            </p>
+                        </div>
+                        <div>
+                            <p className="text-xs font-bold text-base-content/40 tracking-widest uppercase mb-1">
+                                BACK-END
+                            </p>
+                            <p className="text-sm text-base-content/80">
+                                Node.js, Python, Django, Java, C, Laravel
+                            </p>
+                        </div>
+                        <div>
+                            <p className="text-xs font-bold text-base-content/40 tracking-widest uppercase mb-1">
+                                BASES DE DONNÉES
+                            </p>
+                            <p className="text-sm text-base-content/80">
+                                MySQL, PostgreSQL
+                            </p>
+                        </div>
 
+
+                    </div>
+                    </div>
+                     {/*Soft Skills */}
+                        <div className="rounded-2xl p-6 border border-white/10"
+                        style={{background: 'rgba(255,255,255,0.05)'}} >
+                             <h2 className="text-2xl font-bold text-white mb-4">Soft Skills</h2>
+                             <div className="space-y-3">
+                                <div className="rounded-2xl p-4 border border-white/10">
+                                    <p className="text-sm text-base-content/80 font-bold" > Communication en équipe</p>
+                                </div>
+                                        <div className="rounded-2xl p-4 border border-white/10">
+                                    <p className="text-sm text-base-content/80 font-bold" > Autonomie et Curiosité</p>
+                                </div>     <div className="rounded-2xl p-4 border border-white/10">
+                                    <p className="text-sm text-base-content/80 font-bold" > Résolution de problèmes</p>
+                                </div>     <div className="rounded-2xl p-4 border border-white/10">
+                                    <p className="text-sm text-base-content/80 font-bold" > Dicipline</p>
+                                </div>
+                             </div>
+                             <h2 className="text-2xl font-bold text-white mb-4 mt-4">Liens utiles</h2>
+
+                        </div>
+
+        </div>
+       
+ 
     </div>
   )
 }
