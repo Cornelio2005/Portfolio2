@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-
-
+import { HashLink } from 'react-router-hash-link'
 
 
 const liens = [
@@ -27,8 +26,7 @@ function Navbar(){
 
 
     return(
-        <nav className="navbar bg-base-100 sticky top-0 shadow-md">
-            <div className="navbar-start">
+<nav className="navbar bg-base-100 sticky top-0 z-50 shadow-md">            <div className="navbar-start">
                      <a href="#accueil" className="text-2xl font-extrabold " style={{ fontFamily: 'Orbitron, sans-serif' }}>
                         BC
                     </a>
@@ -42,10 +40,10 @@ function Navbar(){
     <Link to={lien.href} className="font-medium hover:text-primary transition-colors duration-200">
       {lien.label}
     </Link>
-  ) : (
-    <a href={lien.href} className="font-medium hover:text-primary transition-colors duration-200">
+ ) : (
+    <HashLink smooth to={lien.href} className="font-medium hover:text-primary transition-colors duration-200">
       {lien.label}
-    </a>
+    </HashLink>
   )}
 </li>
                             ))}   
