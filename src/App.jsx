@@ -6,6 +6,7 @@ import APropos from './pages/APropos'
 import Projets from './pages/Projets'
 import Contact from './pages/Contact'
 import CV from './pages/CV'
+import ProjetDetail from './pages/ProjetDetail'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </>
     } />
     <Route path="/cv" element={<CV />} />
+    <Route path="/projets/:id" element={<ProjetDetail />} />
   </Routes>
 </main>
       <Footer />
