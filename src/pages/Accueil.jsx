@@ -46,7 +46,7 @@ return (
         className="text-5xl md:text-7xl font-extrabold text-white"
         style={{ fontFamily: 'Orbitron, sans-serif' }}
       >
-        BENISSAN <span className="text-secondary">Cornelio</span>
+        BENISSAN <span className="text-primary">Cornelio</span>
       </h1>
 
       {/* TITRE */}
@@ -67,8 +67,16 @@ return (
         <a href="/#contact" className="btn btn-outline btn-lg text-white border-white hover:bg-white hover:text-purple-900">
           Me Contacter
         </a>
+
+         <a href="/CV"  className="btn  btn-primary btn-lg">
+           Mon CV
+         </a>
       </div>
+       
+      
     </motion.div>
+      
+         
 
     {/* DÉGRADÉ DE TRANSITION */}
     <div className="absolute bottom-0 left-0 w-full h-32 z-10"

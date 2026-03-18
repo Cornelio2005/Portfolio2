@@ -62,18 +62,21 @@ function ProjetDetail() {
   }
 
   return (
-    <div className="min-h-screen px-6 py-24 max-w-4xl mx-auto">
 
-      {/* BOUTON RETOUR */}
-      <motion.div
+    
+    <div className="min-h-screen px-6 py-24 max-w-4xl mx-auto border border-white/10 rounded-2xl" style={{ background: 'rgba(255,255,255,0.05)' }}>
+              <motion.div
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ type: 'spring', stiffness: 100, damping: 15 }}
       >
-        <Link to="/#projets" className="btn btn-ghost btn-outline mb-8">
+            {/* BOUTON RETOUR */}
+
+        <Link to="/#projets" className="btn btn-ghost  mb-8 ">
           ← Retour aux projets
         </Link>
       </motion.div>
+
 
       {/* EN-TÊTE */}
       <motion.div
@@ -136,10 +139,9 @@ function ProjetDetail() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ type: 'spring', stiffness: 100, damping: 15, delay: 0.4 }}
-          className="rounded-2xl p-6 border border-white/10"
+          className="rounded-2xl border border-white/10 p-4 mb-8"
           style={{ background: 'rgba(255,255,255,0.05)' }}
         >
-          <h2 className="text-xl font-bold text-white mb-4">Images</h2>
 
           {/* IMAGE PRINCIPALE */}
           <div className="relative w-full h-72 overflow-hidden rounded-xl mb-4">
