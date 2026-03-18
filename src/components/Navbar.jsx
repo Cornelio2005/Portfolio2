@@ -4,7 +4,6 @@ import { HashLink } from 'react-router-hash-link'
 const liens = [
   { label: 'Accueil',     href: '/#accueil',     isRoute: false },
   { label: 'À Propos',    href: '/#apropos',     isRoute: false },
-  { label: 'Competences', href: '/#competences', isRoute: false },
   { label: 'Projets',     href: '/#projets',     isRoute: false },
   { label: 'Contact',     href: '/#contact',     isRoute: false },
   { label: 'CV',          href: '/cv',           isRoute: true  },

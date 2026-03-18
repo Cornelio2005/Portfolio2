@@ -3,7 +3,6 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Accueil from './pages/Accueil'
 import APropos from './pages/APropos'
-import Competences from './pages/Competences'
 import Projets from './pages/Projets'
 import Contact from './pages/Contact'
 import CV from './pages/CV'
@@ -18,7 +17,6 @@ function App() {
       <>
         <Accueil />
         <APropos />
-        <Competences />
         <Projets />
         <Contact />
       </>
