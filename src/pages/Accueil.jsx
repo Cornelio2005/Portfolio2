@@ -68,7 +68,7 @@ return (
           Me Contacter
         </a>
 
-         <a href="/CV"  className="btn  btn-primary btn-lg">
+         <a href="/cv" className="btn  btn-primary btn-lg">
            Mon CV
          </a>
       </div>
